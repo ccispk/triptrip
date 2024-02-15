@@ -1,12 +1,19 @@
 import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import './App.css';
-import Header from './Components/Header/Header';
+import Navbar from './Components/Navbar/Navbar';
 
 function App() {
   return (
     <div className="App">
-      <Header/>
-      <h1>test 人類社会のすべての構成員</h1>
+      <Router>
+        <Navbar />
+        <main className="main-content">
+          <Routes>
+            <Route path="/" element={<></>} />
+          </Routes>
+        </main>
+      </Router>
     </div>
   );
 }

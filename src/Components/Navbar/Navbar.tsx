@@ -1,19 +1,79 @@
-import "./Navbar.css"
+import React, { useState } from "react";
+import { NavLink } from 'react-router-dom'
+import { IoClose, IoMenu } from "react-icons/io5";
+import { navItems } from "./NavItems";
+import "./Navbar.css";
+import Dropdown from "./Dropdown/Dropdown";
 
-export default function Navbar() {
+const Navbar = () => {
+    const [showMenu, setShowMenu] = useState(false);
+
+    const toggleMenu = () => {
+        setShowMenu(!showMenu);
+    };
+
+    const closeMenuOnMobile = () => {
+        if (window.innerWidth <= 1150) {
+            setShowMenu(false);
+        }
+    };
+
+    const Categories_data = {
+        html: {
+            category: 'HTML'
+        },
+        css: {
+            category: 'CSS'
+        },
+        javascript: {
+            category: 'JavaScript'
+        },
+        web_development: {
+            category: 'Web Development'
+        },
+        all_category: {
+            category: 'All Categories'
+        },
+
+    };
+
+    const [dropdown, setDropdown] = useState(false);
+
     return (
-        <nav className="navbar">
-            <a href="/">Home</a>
-            <a href="/">Prepare</a>
-            <div className="dropdown-box">
-                <button className="dropdown-btn">Schedule</button>
-                <div className="dropdown-menu">
-                    <a href="#1">Day 1</a>
-                    <a href="#2">Day 2</a>
-                    <a href="#3">Day 3</a>
+        <header className="header">
+            <nav className="nav container">
+                <NavLink to="/" className="nav-logo">
+                    Navigation Bar
+                </NavLink>
+                <div className={`nav-menu ${showMenu ? "show-menu" : ""}`} id="nav-menu">
+                    <ul className="nav-list">
+                        {navItems.map((item) => {
+                            if (item.title === "Schedules") {
+                                return (
+                                    <li key={item.id} className="nav-item" onClick={()=>setDropdown(!dropdown)}>
+                                        <NavLink className={item.className} to={item.path}>{item.title}</NavLink>
+                                        {dropdown && <Dropdown />}
+                                    </li>
+                                );
+                            }
+                            return (
+                                <li key={item.id} className="nav-item">
+                                    <NavLink className={item.className} to={item.path} onClick={closeMenuOnMobile}>{item.title}</NavLink>
+                                </li>
+                            );
+                        })}
+                    </ul>
+                    <div className="nav-close" id="nav-close" onClick={toggleMenu}>
+                        <IoClose />
+                    </div>
                 </div>
-            </div>
-            <a href="/">Information</a>
-        </nav>
+
+                <div className="nav-toggle" id="nav-toggle" onClick={toggleMenu}>
+                    <IoMenu />
+                </div>
+            </nav>
+        </header>
     );
-}
+};
+
+export default Navbar;

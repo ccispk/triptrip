@@ -1,8 +1,9 @@
-.navbar {
+/* .navbar {
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: right;
+    align-items: center;
     overflow: hidden;
 }
 
@@ -64,8 +65,6 @@
 }
 
 .dropdown-box {
-    display: flex;
-    justify-content: center;
     float: left;
     overflow: hidden;
 }
@@ -104,4 +103,137 @@
 
 .dropdown-box:hover .dropdown-menu {
     display: block;
+} */
+
+.header {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    z-index: 100;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    height: 3.5rem;
+    margin: 1rem;
+}
+
+.nav-logo {
+    color: hsl(28, 88%, 62%);
+    transition: color 0.4s;
+    font-size: 2rem;
+    font-family: "Dancing Script", cursive;
+}
+
+.nav-toggle,
+.nav-close {
+    font-size: 2rem;
+    color: hsl(0, 0%, 95%);
+    cursor: pointer;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    row-gap: 2.5rem;
+}
+
+.nav-link {
+    position: relative;
+    color: hsl(0, 0%, 95%);
+    font-weight: 600;
+    transition: color 0.4s;
+}
+
+.nav-link::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    transform: scaleY(2);
+    opacity: 0;
+    transition: .3s;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    transform: scale(0);
+    opacity: 0;
+    transition: .3s;
+    z-index: -1;
+}
+
+.nav-link:hover {
+    color: #000;
+}
+
+.nav-link:hover::before {
+    transform: scaleY(1);
+    opacity: 1;
+}
+
+.nav-link:hover::after {
+    transform: scaleY(1);
+    opacity: 1;
+}
+
+.nav-close {
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+}
+
+.show-menu {
+    right: 0 !important;
+}
+
+@media screen and (max-width: 1150px) {
+    .nav-menu {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        background-color: hsla(0, 0%, 6%, 0.2);
+        backdrop-filter: blur(16px);
+        -webkit-backdrop-filter: blur(16px);
+        width: 80%;
+        height: 100%;
+        padding: 6rem 3rem 0;
+        transition: right 0.4s;
+    }
+}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (min-width: 1150px) {
+    .nav {
+        height: calc(3.5rem + 1rem);
+    }
+
+    .nav-toggle,
+    .nav-close {
+        display: none;
+    }
+
+    .nav-list {
+        flex-direction: row;
+        column-gap: 2.5rem;
+    }
 }
