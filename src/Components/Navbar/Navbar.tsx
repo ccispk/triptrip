@@ -6,7 +6,10 @@ import "./Navbar.css";
 import Dropdown from "./Dropdown/Dropdown";
 
 const Navbar = () => {
-    const [showMenu, setShowMenu] = useState(false);
+
+    const boolMenu: boolean = false;
+
+    const [showMenu, setShowMenu] = useState(boolMenu);
 
     const toggleMenu = () => {
         setShowMenu(!showMenu);
