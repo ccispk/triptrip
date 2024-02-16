@@ -17,6 +17,9 @@ body,
 
 html {
     scroll-behavior: smooth;
+    background: linear-gradient(to top, rgb(37, 29, 55, 1), rgba(31, 24, 56, 1), rgba(0, 0, 0, 1));
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 body {
@@ -26,7 +29,6 @@ body {
     font-weight: 300;
     font-style: normal;
     font-size: medium;
-    background: linear-gradient(to top, rgb(37, 29, 55, 1), rgba(31, 24, 56, 1), rgba(0, 0, 0, 1));
 }
 
 h1,

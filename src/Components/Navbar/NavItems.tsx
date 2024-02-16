@@ -1,4 +1,11 @@
-export const navItems = [
+interface Items {
+    id: number,
+    title: string,
+    path: string,
+    className: string,
+}
+
+export const navItems:Items[] = [
     {
         id: 1,
         title: "Home",
@@ -25,7 +32,7 @@ export const navItems = [
     },
 ];
 
-export const serviceDropdown = [
+export const serviceDropdown:Items[] = [
     {
         id: 1,
         title: "Day 1",

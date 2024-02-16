@@ -40,7 +40,9 @@ const Navbar = () => {
 
     };
 
-    const [dropdown, setDropdown] = useState(false);
+    const boolDropdown:boolean = false;
+
+    const [dropdown, setDropdown] = useState(boolDropdown);
 
     return (
         <header className="header">
