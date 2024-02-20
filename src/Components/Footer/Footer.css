@@ -4,20 +4,82 @@ footer{
 }
 
 .media-box {
-    height: 5rem;
+    /* height: 5rem; */
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     position: relative;
-    background: #042243;
+    gap: 2.5rem;
+    background: #1b1c21;
     color:#fff;
     padding: 14px 16px;
 }
 
-.media-box a{
-    text-decoration: none;
-
+.media-box a {
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    text-align: center;
+    line-height: 80px;
+    font-size: 35px;
+    margin: 0 10px;
+    display: block;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    border: 3px solid #fff;
+    z-index: 1;
 }
 
-.media-box span{}
+.media-box a .icon {
+    position: relative;
+    color: #262626;
+    transition: .5s;
+    z-index: 3;
+}
+
+.media-box a:hover .icon{
+    color: #fff;
+    transform: rotateY(360deg);
+}
+
+.media-box a:before{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #f00;
+    transition: .5s;
+    z-index: 2;
+}
+
+.media-box a:hover:before {
+    top: 0;
+}
+
+.media-box a:nth-child(1):before {
+    background: #3b5999;
+}
+
+.media-box a:nth-child(2):before {
+    background: #ff52e8;
+}
+
+.media-box a:nth-child(3):before {
+    background: #f00;
+}
+
+.media-box a:nth-child(4):before {
+    background: #000000;
+}
+
+.footer-box {
+    text-align: center;
+    background: #000000;
+    font-size: 1.2em;
+    color: #fff;
+    padding: 10px;
+}
