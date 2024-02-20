@@ -13,7 +13,7 @@ const Footer = () => {
                 <Link to="#" className="media-link"><FaYoutube className="icon"/></Link>
                 <Link to="#" className="media-link"><FaX className="icon"/></Link>
             </div>
-            <div className="footer-box"><span>Wo Che Fundation</span> &copy; {currentYear}</div>
+            <div className="footer-box"><span>Wo Che Fundation  &copy; {currentYear}</span></div>
         </footer>
     );
 }

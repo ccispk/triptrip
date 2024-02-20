@@ -4,7 +4,6 @@ footer{
 }
 
 .media-box {
-    /* height: 5rem; */
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -82,4 +81,10 @@ footer{
     font-size: 1.2em;
     color: #fff;
     padding: 10px;
+}
+
+@media screen and (max-width: 1150px) {
+    .media-box {
+        flex-direction: column;
+    }
 }
