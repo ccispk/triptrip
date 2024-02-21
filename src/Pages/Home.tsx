@@ -5,7 +5,6 @@ const Home = () => {
     return(
         <div className="contanier">
             <HeroSection/>
-            <div className="hero-box"></div>
             <section>12345678</section>
         </div>
     );
