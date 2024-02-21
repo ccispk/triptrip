@@ -21,25 +21,6 @@ const Navbar = () => {
         }
     };
 
-    const Categories_data = {
-        html: {
-            category: 'HTML'
-        },
-        css: {
-            category: 'CSS'
-        },
-        javascript: {
-            category: 'JavaScript'
-        },
-        web_development: {
-            category: 'Web Development'
-        },
-        all_category: {
-            category: 'All Categories'
-        },
-
-    };
-
     const boolDropdown:boolean = false;
 
     const [dropdown, setDropdown] = useState(boolDropdown);
@@ -48,7 +29,7 @@ const Navbar = () => {
         <header className="header">
             <nav className="nav container">
                 <NavLink to="/" className="nav-logo">
-                    Navigation Bar
+                    WCF
                 </NavLink>
                 <div className={`nav-menu ${showMenu ? "show-menu" : ""}`} id="nav-menu">
                     <ul className="nav-list">
