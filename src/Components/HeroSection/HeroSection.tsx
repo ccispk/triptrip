@@ -25,6 +25,7 @@ const HeroSection = () => {
             </video>
             <div className="hero-box">
                 <h1>禾輋基金會</h1>
+                <hr></hr>
                 <div className="lineUp">
                     <p>{word[index]}</p>
                 </div>

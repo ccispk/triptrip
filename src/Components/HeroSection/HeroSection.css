@@ -33,6 +33,10 @@
     color: #fff;
 }
 
+.hero-box hr {
+    border: 1.5px solid;
+}
+
 .hero-box p {
     font-size: 30px;
 }
@@ -47,24 +51,28 @@
 
 .lineUp p {
     animation: 2s anim-lineUp ease-out infinite;
-  }
-  @keyframes anim-lineUp {
+}
+
+@keyframes anim-lineUp {
     0% {
-      opacity: 0;
-      transform: translateY(80%);
+        opacity: 0;
+        transform: translateY(80%);
     }
+
     20% {
-      opacity: 0;
+        opacity: 0;
     }
+
     50% {
-      opacity: 1;
-      transform: translateY(0%);
+        opacity: 1;
+        transform: translateY(0%);
     }
+
     100% {
-      opacity: 1;
-      transform: translateY(0%);
+        opacity: 1;
+        transform: translateY(0%);
     }
-  }
+}
 
 @media screen and (max-width: 1150px) {
     .hero-box h1 {
