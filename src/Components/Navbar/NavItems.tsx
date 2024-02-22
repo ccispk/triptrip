@@ -1,11 +1,11 @@
-interface Items {
+interface NItems {
     id: number,
     title: string,
     path: string,
     className: string,
 }
 
-export const navItems:Items[] = [
+export const navItems:NItems[] = [
     {
         id: 1,
         title: "Home",
@@ -32,7 +32,7 @@ export const navItems:Items[] = [
     },
 ];
 
-export const serviceDropdown:Items[] = [
+export const serviceDropdown:NItems[] = [
     {
         id: 1,
         title: "Day 1",
