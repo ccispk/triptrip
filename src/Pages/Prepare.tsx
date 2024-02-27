@@ -57,10 +57,6 @@ const Prepare = () => {
             ]
         },
     ];
-    const [expanded, setExpanded] = React.useState(false);
-    const clickHandler = () => {
-        setExpanded(!expanded);
-    };
     return (
         <div className="prepare-contanier">
             <img src={imgurl} alt="Travel Items" className="cover-img" />
@@ -75,6 +71,10 @@ const Prepare = () => {
 }
 
 const ListItem = ({ title, list }) => {
+    const [expanded, setExpanded] = React.useState(false);
+    const clickHandler = () => {
+        setExpanded(!expanded);
+    };
     return (
         <div className="main-menu">
             <button onClick={clickHandler} className="list-btn">{expanded ? <FaChevronUp/> : <FaChevronDown/>} {title}</button>
