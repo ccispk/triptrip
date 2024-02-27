@@ -4,6 +4,7 @@ import './App.css';
 import Navbar from './Components/Navbar/Navbar';
 import Footer from './Components/Footer/Footer';
 import Home from './Pages/Home';
+import Prepare from './Pages/Prepare';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <main className="main-content">
           <Routes>
             <Route path="/" element={<Home/>} />
+            <Route path="/prepare" element={<Prepare/>} />
           </Routes>
         </main>
         <Footer/>

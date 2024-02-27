@@ -2,6 +2,7 @@
     width: 100%;
     height: 100%;
     position: relative;
+    color: #fff;
 }
 
 .hero-section video {
@@ -15,7 +16,6 @@
 }
 
 .hero-box {
-    width: 60%;
     background-color: transparent;
     position: absolute;
     top: 50%;
@@ -28,9 +28,8 @@
 }
 
 .hero-box h1 {
-    font-size: 75px;
+    font-size: 80px;
     font-weight: 800;
-    color: #fff;
 }
 
 .hero-box hr {
@@ -38,7 +37,7 @@
 }
 
 .hero-box p {
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .lineUp {
@@ -50,6 +49,7 @@
 }
 
 .lineUp p {
+    color: #fff;
     animation: 2s anim-lineUp ease-out infinite;
 }
 
@@ -75,37 +75,34 @@
 }
 
 @media screen and (max-width: 1150px) {
-    .hero-box h1 {
-        font-size: 50px
-    }
-
-    .hero-box p {
-        font-size: 20px;
-    }
-}
-
-@media screen and (max-width: 768px) {
     .hero-box {
         top: 40%;
     }
 
     .hero-box h1 {
-        font-size: 40px;
-    }
-}
-
-@media screen and (max-width: 450px) {
-    .hero-box {
-        top: 30%;
+        font-size: 60px
     }
 
-    .hero-box h1 {
+    .hero-box p {
         font-size: 30px;
     }
 }
 
-@media screen and (max-width: 349px) {
+@media screen and (max-width: 768px) {
     .hero-box {
-        top: 10%;
+        top: 30%;
     }
+    .hero-box h1 {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .hero-box h1 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 349px) {
+
 }
