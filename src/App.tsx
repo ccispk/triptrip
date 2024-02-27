@@ -5,6 +5,7 @@ import Navbar from './Components/Navbar/Navbar';
 import Footer from './Components/Footer/Footer';
 import Home from './Pages/Home';
 import Prepare from './Pages/Prepare';
+import Information from './Pages/Information';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home/>} />
             <Route path="/prepare" element={<Prepare/>} />
+            <Route path="/information" element={<Information/>} />
           </Routes>
         </main>
         <Footer/>

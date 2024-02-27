@@ -37,6 +37,8 @@
     text-transform: uppercase;
     row-gap: 2rem;
     overflow-y: scroll;
+    list-style-type: none;
+    padding: 0;
 }
 
 .nav-item {
@@ -131,6 +133,7 @@
     }
 
     .nav-list {
+        
         flex-direction: row;
         column-gap: 2.5rem;
         overflow-y: visible;

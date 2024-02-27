@@ -5,7 +5,13 @@ import imgurl from "../assets/images/prepare.jpg"
 
 const Prepare = () => {
 
-    const listitems = [
+    interface LItems {
+        id: number,
+        title: string,
+        list: object
+    }
+
+    const listitems:LItems[] = [
         {
             id: 1,
             title: "行李",
@@ -57,34 +63,35 @@ const Prepare = () => {
             ]
         },
     ];
+    return (
+        <div className="prepare-contanier">
+            <img src={imgurl} alt="Japan Metro" className="cover-img" />
+            <section className="page-content-container">
+                <h2 className="page-title">事前準備</h2>
+                {listitems.map((item, index) => {
+                    return <ListItem key={index} title={item.title} list={item.list} />
+                })}
+            </section >
+        </div>
+    );
+}
 
+const ListItem = ({ title, list }) => {
     const [expanded, setExpanded] = React.useState(false);
     const clickHandler = () => {
         setExpanded(!expanded);
     };
-
     return (
-        <div className="prepare-contanier">
-            <img src={imgurl} alt="Travel Items" className="cover-img" />
-            <section className="page-content-container">
-                <h2 className="page-title">事前準備</h2>
-                {listitems.map((item, index) => {
-                    return (
-                        <>
-                            <div className="main-menu">
-                                <button onClick={clickHandler} className="list-btn">{expanded ? <FaChevronUp /> : <FaChevronDown />} {item.title}</button>
-                            </div>
-                            <ol className={`sub-menu ${expanded ? 'expanded' : 'collapsed'}`}>
-                                {item.list.map((item, index) => {
-                                    return <li key={index}>{item.content}</li>
-                                })}
-                            </ol>
-                        </>
-                    );
-
+        <>
+            <div className="main-menu">
+                <button onClick={clickHandler} className="list-btn">{expanded ? <FaChevronUp /> : <FaChevronDown />} {title}</button>
+            </div>
+            <ol className={`sub-menu ${expanded ? 'expanded' : 'collapsed'}`}>
+                {list.map((item, index) => {
+                    return <li key={index}>{item.content}</li>
                 })}
-            </section >
-        </div>
+            </ol>
+        </>
     );
 }
 

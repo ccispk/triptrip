@@ -10,3 +10,45 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.page-content-container {
+    display: flex;
+    flex-direction: column;
+    padding: 8px 8px;
+    gap: 10px;
+  }
+  
+  .page-content-container .page-title {
+    font-size: 60px;
+    text-decoration: underline;
+    text-align: center
+  }
+  
+  .main-menu {
+    width: 100%;
+    min-height: 75px;
+    display: flex;
+    align-items: center;
+    background-color: #abdbe3;
+  }
+  
+  .main-menu button {
+    width: 100%;
+    text-align: left;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #341A8B;
+    border: none;
+    background-color: transparent;
+    padding: 4px 8px;
+  }
+  
+  .page-content-container .collapsed {
+    height: 0;
+    display: none;
+  }
+  
+  .sub-menu{
+    width: 100%;
+    font-size: 2rem;
+  }

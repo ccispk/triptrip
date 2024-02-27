@@ -2,6 +2,8 @@
     width: 8rem;
     position: absolute;
     text-align: start;
+    list-style-type: none;
+    padding: 0;
 }
 
 .dropdown-menu li {
