@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/ccispk/triptrip/static/css/main.7b63cafc.css",
-    "main.js": "/ccispk/triptrip/static/js/main.d8b28841.js",
-    "static/media/video.mp4": "/ccispk/triptrip/static/media/video.abfa69845f31a6d97c0f.mp4",
-    "static/media/D1.jpg": "/ccispk/triptrip/static/media/D1.9ce30cc5a6aaa69e0068.jpg",
-    "static/media/fujimountain.jpg": "/ccispk/triptrip/static/media/fujimountain.577037825bd429704d7a.jpg",
-    "static/media/D5.jpg": "/ccispk/triptrip/static/media/D5.fde3899a04f396df4fd2.jpg",
-    "static/media/D4.jpg": "/ccispk/triptrip/static/media/D4.f0cfbafa92976a449a92.jpg",
-    "static/media/D2.jpg": "/ccispk/triptrip/static/media/D2.aa5d40fd6af2617f4bb1.jpg",
-    "static/media/prepare.jpg": "/ccispk/triptrip/static/media/prepare.4d588252e26702e2f58a.jpg",
-    "static/media/D3.jpg": "/ccispk/triptrip/static/media/D3.719d1d59f74157051ac3.jpg",
-    "static/media/D6.jpg": "/ccispk/triptrip/static/media/D6.adf915c80558d6a6291c.jpg",
-    "static/media/information.jpg": "/ccispk/triptrip/static/media/information.953b55d6d9afff1dce98.jpg",
-    "index.html": "/ccispk/triptrip/index.html",
-    "main.7b63cafc.css.map": "/ccispk/triptrip/static/css/main.7b63cafc.css.map",
-    "main.d8b28841.js.map": "/ccispk/triptrip/static/js/main.d8b28841.js.map"
+    "main.css": "/triptrip/static/css/main.1c3035f8.css",
+    "main.js": "/triptrip/static/js/main.28ce9a91.js",
+    "static/media/video.mp4": "/triptrip/static/media/video.abfa69845f31a6d97c0f.mp4",
+    "static/media/D1.jpg": "/triptrip/static/media/D1.9ce30cc5a6aaa69e0068.jpg",
+    "static/media/fujimountain.jpg": "/triptrip/static/media/fujimountain.577037825bd429704d7a.jpg",
+    "static/media/D5.jpg": "/triptrip/static/media/D5.fde3899a04f396df4fd2.jpg",
+    "static/media/D4.jpg": "/triptrip/static/media/D4.f0cfbafa92976a449a92.jpg",
+    "static/media/D2.jpg": "/triptrip/static/media/D2.aa5d40fd6af2617f4bb1.jpg",
+    "static/media/prepare.jpg": "/triptrip/static/media/prepare.4d588252e26702e2f58a.jpg",
+    "static/media/D3.jpg": "/triptrip/static/media/D3.719d1d59f74157051ac3.jpg",
+    "static/media/D6.jpg": "/triptrip/static/media/D6.adf915c80558d6a6291c.jpg",
+    "static/media/information.jpg": "/triptrip/static/media/information.953b55d6d9afff1dce98.jpg",
+    "index.html": "/triptrip/index.html",
+    "main.1c3035f8.css.map": "/triptrip/static/css/main.1c3035f8.css.map",
+    "main.28ce9a91.js.map": "/triptrip/static/js/main.28ce9a91.js.map"
   },
   "entrypoints": [
-    "static/css/main.7b63cafc.css",
-    "static/js/main.d8b28841.js"
+    "static/css/main.1c3035f8.css",
+    "static/js/main.28ce9a91.js"
   ]
 }
