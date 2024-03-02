@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/ccispk/wcf-trip.git/static/css/main.5e1668fb.css",
-    "main.js": "/ccispk/wcf-trip.git/static/js/main.92cb06c7.js",
-    "static/media/video.mp4": "/ccispk/wcf-trip.git/static/media/video.abfa69845f31a6d97c0f.mp4",
-    "static/media/D1.jpg": "/ccispk/wcf-trip.git/static/media/D1.9ce30cc5a6aaa69e0068.jpg",
-    "static/media/fujimountain.jpg": "/ccispk/wcf-trip.git/static/media/fujimountain.577037825bd429704d7a.jpg",
-    "static/media/D5.jpg": "/ccispk/wcf-trip.git/static/media/D5.fde3899a04f396df4fd2.jpg",
-    "static/media/D4.jpg": "/ccispk/wcf-trip.git/static/media/D4.f0cfbafa92976a449a92.jpg",
-    "static/media/D2.jpg": "/ccispk/wcf-trip.git/static/media/D2.aa5d40fd6af2617f4bb1.jpg",
-    "static/media/prepare.jpg": "/ccispk/wcf-trip.git/static/media/prepare.4d588252e26702e2f58a.jpg",
-    "static/media/D3.jpg": "/ccispk/wcf-trip.git/static/media/D3.719d1d59f74157051ac3.jpg",
-    "static/media/D6.jpg": "/ccispk/wcf-trip.git/static/media/D6.adf915c80558d6a6291c.jpg",
-    "static/media/information.jpg": "/ccispk/wcf-trip.git/static/media/information.953b55d6d9afff1dce98.jpg",
-    "index.html": "/ccispk/wcf-trip.git/index.html",
-    "main.5e1668fb.css.map": "/ccispk/wcf-trip.git/static/css/main.5e1668fb.css.map",
-    "main.92cb06c7.js.map": "/ccispk/wcf-trip.git/static/js/main.92cb06c7.js.map"
+    "main.css": "/ccispk/triptrip.git/static/css/main.9861cbcc.css",
+    "main.js": "/ccispk/triptrip.git/static/js/main.d47aa48b.js",
+    "static/media/video.mp4": "/ccispk/triptrip.git/static/media/video.abfa69845f31a6d97c0f.mp4",
+    "static/media/D1.jpg": "/ccispk/triptrip.git/static/media/D1.9ce30cc5a6aaa69e0068.jpg",
+    "static/media/fujimountain.jpg": "/ccispk/triptrip.git/static/media/fujimountain.577037825bd429704d7a.jpg",
+    "static/media/D5.jpg": "/ccispk/triptrip.git/static/media/D5.fde3899a04f396df4fd2.jpg",
+    "static/media/D4.jpg": "/ccispk/triptrip.git/static/media/D4.f0cfbafa92976a449a92.jpg",
+    "static/media/D2.jpg": "/ccispk/triptrip.git/static/media/D2.aa5d40fd6af2617f4bb1.jpg",
+    "static/media/prepare.jpg": "/ccispk/triptrip.git/static/media/prepare.4d588252e26702e2f58a.jpg",
+    "static/media/D3.jpg": "/ccispk/triptrip.git/static/media/D3.719d1d59f74157051ac3.jpg",
+    "static/media/D6.jpg": "/ccispk/triptrip.git/static/media/D6.adf915c80558d6a6291c.jpg",
+    "static/media/information.jpg": "/ccispk/triptrip.git/static/media/information.953b55d6d9afff1dce98.jpg",
+    "index.html": "/ccispk/triptrip.git/index.html",
+    "main.9861cbcc.css.map": "/ccispk/triptrip.git/static/css/main.9861cbcc.css.map",
+    "main.d47aa48b.js.map": "/ccispk/triptrip.git/static/js/main.d47aa48b.js.map"
   },
   "entrypoints": [
-    "static/css/main.5e1668fb.css",
-    "static/js/main.92cb06c7.js"
+    "static/css/main.9861cbcc.css",
+    "static/js/main.d47aa48b.js"
   ]
 }
