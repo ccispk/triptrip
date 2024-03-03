@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/triptrip/static/css/main.1c3035f8.css",
-    "main.js": "/triptrip/static/js/main.2f229e4f.js",
+    "main.js": "/triptrip/static/js/main.3acfa911.js",
     "static/media/video.mp4": "/triptrip/static/media/video.abfa69845f31a6d97c0f.mp4",
     "static/media/D1.jpg": "/triptrip/static/media/D1.9ce30cc5a6aaa69e0068.jpg",
     "static/media/fujimountain.jpg": "/triptrip/static/media/fujimountain.577037825bd429704d7a.jpg",
@@ -21,10 +21,10 @@
     "static/media/Scroll3.jpg": "/triptrip/static/media/Scroll3.2546159aae98059f2de6.jpg",
     "index.html": "/triptrip/index.html",
     "main.1c3035f8.css.map": "/triptrip/static/css/main.1c3035f8.css.map",
-    "main.2f229e4f.js.map": "/triptrip/static/js/main.2f229e4f.js.map"
+    "main.3acfa911.js.map": "/triptrip/static/js/main.3acfa911.js.map"
   },
   "entrypoints": [
     "static/css/main.1c3035f8.css",
-    "static/js/main.2f229e4f.js"
+    "static/js/main.3acfa911.js"
   ]
 }
